@@ -12,32 +12,32 @@ export default function Home() {
       </Head>
 
       <nav className={styles.nav}>
-        <ol class="flex list-none justify-between px-4">
-          <li class="p-4 mr-10"><a href="#">HOME</a></li>
-          <li class="p-4 hover:bg-violet-400 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300"><a href="#">About</a></li>
-          <li class="p-4 hover:bg-violet-400 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300"><a href="#">Roadmap</a></li>
-          <li class="p-4 hover:bg-violet-400 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300"><a href="#">Team</a></li>
+        <ol className="flex list-none justify-between px-4">
+          <li className="p-4 mr-10"><a href="#">HOME</a></li>
+          <li className="p-4 hover:bg-violet-400 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300"><a href="#">About</a></li>
+          <li className="p-4 hover:bg-violet-400 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300"><a href="#">Roadmap</a></li>
+          <li className="p-4 hover:bg-violet-400 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300"><a href="#">Team</a></li>
         </ol>
       </nav>
 
-      <div class="h-2 bg-black"></div>
+      <div className="h-2 bg-black"></div>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="#">Porky Oink</a>
         </h1>
 
-        <h1 class="text-4xl pt-10">About</h1>
+        <h1 className="text-4xl pt-10">About</h1>
         <div className={styles.grid}>
           Fill this with about
         </div>
 
-        <h1 class="text-4xl pt-10">Roadmap</h1>
+        <h1 className="text-4xl pt-10">Roadmap</h1>
         <div className={styles.grid}>
           Fill this with roadmap
         </div>
 
-        <h1 class="text-4xl pt-10">Meet the team</h1>
+        <h1 className="text-4xl pt-10">Meet the team</h1>
         <div className={styles.grid}>
           <a href="#" className={styles.card}>
             <div>Image</div>
@@ -69,14 +69,14 @@ export default function Home() {
         </div>
       </main>
 
-      <div class="h-2 bg-black"></div>
+      <div className="h-2 bg-black"></div>
 
       <footer className={styles.footer}>
-        <h1 class="text-left">Porky Oink 2022@</h1>
-        <ol class="flex list-none justify-between mx-4">
-          <li class="mx-4"><a href="#">Social</a></li>
-          <li class="mx-4"><a href="#">Social</a></li>
-          <li class="mx-4"><a href="#">Social</a></li>
+        <h1 className="text-left">Porky Oink 2022@</h1>
+        <ol className="flex list-none justify-between mx-4">
+          <li className="mx-4"><a href="#">Social</a></li>
+          <li className="mx-4"><a href="#">Social</a></li>
+          <li className="mx-4"><a href="#">Social</a></li>
         </ol>
       </footer>
     </div>
